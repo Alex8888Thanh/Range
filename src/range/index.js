@@ -1,13 +1,13 @@
-const Of = require('./of');
-const Open = require('./open');
-const Closed = require('./closed');
-const ClosedOpen = require('./closed-open');
-const OpenClosed = require('./open-closed');
+const of = require('./of');
+const open = require('./open');
+const closed = require('./closed');
+const closedOpen = require('./closed-open');
+const openClosed = require('./open-closed');
 
 module.exports = {
-  Of,
-  Open,
-  Closed,
-  ClosedOpen,
-  OpenClosed,
+  of,
+  open,
+  closed,
+  closedOpen,
+  openClosed,
 };
