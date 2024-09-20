@@ -2,11 +2,11 @@ const Range = require("./range/range");
 const RangeKata = require("./range-kata");
 
 const ranges = [
-  new Range("Of", 11, 23),
-  new Range("Open", 11, 23),
-  new Range("Closed", 11, 23),
-  new Range("ClosedOpen", 11, 23),
-  new Range("OpenClosed", 11, 23),
+  new Range("of", 11, 23),
+  new Range("open", 11, 23),
+  new Range("closed", 11, 23),
+  new Range("closedOpen", 11, 23),
+  new Range("openClosed", 11, 23),
 ];
 
 const nums = Number(process.argv[2]) || 31;
