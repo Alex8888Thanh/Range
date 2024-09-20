@@ -10,7 +10,7 @@ class RangeKata {
   constructor(ranges = []) {
     this.ranges = ranges.map((range) => {
       switch (range.style) {
-        case 'if': return new of(range.start, range.stop);
+        case 'of': return new of(range.start, range.stop);
         case 'open': return new open(range.start, range.stop);
         case 'closed': return new closed(range.start, range.stop);
         case 'closedOpen': return new closedOpen(range.start, range.stop);
