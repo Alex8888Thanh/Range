@@ -20,8 +20,8 @@ class RangeKata {
     });
   }
 
-  updateContains() {
-    this.ranges.forEach((range) => range.update());
+  updateContains(n) {
+    this.ranges.forEach((range) => range.contains(n));
     return this.ranges;
   }
 }
