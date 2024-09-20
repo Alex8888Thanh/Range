@@ -1,12 +1,12 @@
 const Range = require('./range');
 
-class Of extends Range {
+class OpenClosed extends Range {
   constructor(start, stop) {
-    super('Of', start, stop);
+    super('OpenClosed', start, stop);
   }
 
   contains(n) {
-    if(this.start<n&&n<this.stop){
+    if(this.start<n&&n<=this.stop){
       console.log(true);
       return true;
     } else {
@@ -16,4 +16,4 @@ class Of extends Range {
   }
 }
 
-module.exports = Of;
+module.exports = OpenClosed;
