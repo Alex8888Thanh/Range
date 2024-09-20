@@ -2,21 +2,21 @@ const { Range } = require("./range/range");
 const { RangeKata } = require("./range-kata");
 
 const ranges = [
-  new Range("Of", 10, 20),
-  new Range("Open", 2, 0),
-  new Range("Closed", 5, 7),
-  new Range("ClosedOpen", 0, 80),
-  new Range("OpenClosed", -1, 80),
+  new Range("Of", 11, 23),
+  new Range("Open", 11, 23),
+  new Range("Closed", 11, 23),
+  new Range("ClosedOpen", 11, 23),
+  new Range("OpenClosed", 11, 23),
 ];
 
-const days = Number(process.argv[2]) || 2;
+const nums = Number(process.argv[2]) || 31;
 const rangeKata = new RangeKata(ranges);
 
 console.log("OMGHAI!");
-for (let day = 0; day < days + 1; day++) {
-  console.log(`-------- day ${day} --------`);
-  console.log("name, sellIn, quality");
+for (let num = 0; num < nums + 1; num++) {
+  console.log(`-------- num ${num} --------`);
+  console.log("style, start, stop");
   ranges.forEach(range => console.log(`${range.style}, ${range.start}, ${range.stop}`));
-  rangeKata.updateQuality();
+  rangeKata.updateQuality(num);
   console.log("")
 }
