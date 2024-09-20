@@ -1,4 +1,4 @@
-
+const { Range } = require("../range");
 const { RangeKata } = require("./range-kata");
 
 const ranges = [
