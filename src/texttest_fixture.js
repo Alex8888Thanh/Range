@@ -17,6 +17,6 @@ for (let num = 0; num < nums + 1; num++) {
   console.log(`-------- num ${num} --------`);
   console.log("style, start, stop");
   ranges.forEach(range => console.log(`${range.style}, ${range.start}, ${range.stop}`));
-  rangeKata.updateQuality(num);
+  rangeKata.updateContains(num);
   console.log("")
 }
