@@ -26,6 +26,4 @@ class RangeKata {
   }
 }
 
-module.exports = {
-  RangeKata,
-};
+module.exports = RangeKata;
