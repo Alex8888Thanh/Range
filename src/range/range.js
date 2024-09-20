@@ -1,9 +1,9 @@
-class Item {
-  constructor(name, sellIn, quality) {
-    this.name = name;
-    this.sellIn = sellIn;
-    this.quality = quality;
+class Range {
+  constructor(style, start, stop) {
+    this.style = style;
+    this.start = start;
+    this.stop = stop;
   }
 }
 
-module.exports = Item;
+module.exports = Range;
