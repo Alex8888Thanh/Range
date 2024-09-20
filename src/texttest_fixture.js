@@ -1,5 +1,5 @@
-const { Range } = require("./range/range");
-const { RangeKata } = require("./range-kata");
+const Range = require("./range/range");
+const RangeKata = require("./range-kata");
 
 const ranges = [
   new Range("Of", 11, 23),
