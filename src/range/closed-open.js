@@ -2,7 +2,7 @@ const Range = require('./range');
 
 class ClosedOpen extends Range {
   constructor(start, stop) {
-    super('Of', start, stop);
+    super('ClosedOpen', start, stop);
   }
 
   contains(n) {
