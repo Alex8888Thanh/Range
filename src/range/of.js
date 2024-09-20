@@ -5,7 +5,7 @@ class Of extends Range {
     super('Of', start, stop);
   }
 
-  update(n) {
+  contains(n) {
     if(this.start<n&&n<this.stop){
       console.log(true);
       return true;
