@@ -6,7 +6,7 @@ class Of extends Range {
   }
 
   contains(n) {
-    if(this.start<n&&n<this.stop){
+    if(this.start<=n&&n<=this.stop){
       console.log(true);
       return true;
     } else {
