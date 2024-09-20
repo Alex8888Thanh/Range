@@ -6,7 +6,7 @@ const {
   OpenClosed,
 } = require('./range');
 
-class Range {
+class RangeKata {
   constructor(ranges = []) {
     this.ranges = ranges.map((range) => {
       switch (range.style) {
@@ -27,5 +27,5 @@ class Range {
 }
 
 module.exports = {
-  Range,
+  RangeKata,
 };
