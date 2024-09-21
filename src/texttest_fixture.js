@@ -3,7 +3,7 @@ const RangeKata = require("./range-kata");
 
 const ranges = [
   new Range("of", 11, 23),
-  new Range.of(17, 31),
+  Range.of(17, 31),
   new Range("open", 11, 23),
   new Range("closed", 11, 23),
   new Range("closedOpen", 11, 23),
