@@ -8,11 +8,13 @@ class Range {
     this.style = "of";
     this.start = start;
     this.stop = stop;
+    return this;
   }
   static open(start, stop) {
-    this.style = "open";
+    this.style = "open";return this;
     this.start = start;
     this.stop = stop;
+    return this;
   }
 }
 
