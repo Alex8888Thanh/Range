@@ -17,19 +17,19 @@ class Range {
     return this;
   }
   static closed(start, stop) {
-    this.style = "open";
+    this.style = "closed";
     this.start = start;
     this.stop = stop;
     return this;
   }
   static closedOpen(start, stop) {
-    this.style = "open";
+    this.style = "closedOpen";
     this.start = start;
     this.stop = stop;
     return this;
   }
   static openClosed(start, stop) {
-    this.style = "open";
+    this.style = "openClosed";
     this.start = start;
     this.stop = stop;
     return this;
