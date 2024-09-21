@@ -11,31 +11,28 @@ class Range {
     return this;
   }
   static open(start, stop) {
-    this.style = "open";return this;
+    this.style = "open";
     this.start = start;
     this.stop = stop;
     return this;
   }
-  
   static closed(start, stop) {
-    this.style = "open";return this;
+    this.style = "open";
     this.start = start;
     this.stop = stop;
     return this;
   }
-
   static closedOpen(start, stop) {
-    this.style = "open";return this;
+    this.style = "open";
     this.start = start;
     this.stop = stop;
     return this;
   }
-
   static openClosed(start, stop) {
-    this.style = "open";return this;
+    this.style = "open";
     this.start = start;
     this.stop = stop;
     return this;
   }
-
+}
 module.exports = Range;
